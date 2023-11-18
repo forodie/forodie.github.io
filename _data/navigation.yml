@@ -1,10 +1,10 @@
 # main links links
 main:
-  - title: "Publications 📚"
+  - title: "📚 Publications"
     url: /publications/
 
-  - title: "Teaching 👨‍🏫"
+  - title: "👨‍🏫 Teaching"
     url: /teaching/    
     
-  - title: "Guide 🤷🏼‍♂️"
+  - title: "🤷🏼‍♂️ Guide"
     url: /guide/

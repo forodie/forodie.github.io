@@ -8,13 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-## Education 📚
+## 📚 Education 
 
 Bachelor's degree "Applied Informatics"  
 Lobachevsky State University of Nizhny Novgorod,  
 Institute of Information Technology, Mathematics and Mechanics.
 
-## Publications 📖
+## 📖 Publications 
 
 2022:
 
