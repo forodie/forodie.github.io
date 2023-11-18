@@ -251,7 +251,7 @@ defaults:
   # _guide
   - scope:
       path: ""
-      type: teaching
+      type: guide
     values:
       layout: single
       author_profile: true
