@@ -1,11 +1,10 @@
 ---
-permalink: /guide/
 title: "Guide"
+permalink: /guide/
 author_profile: true
 ---
+[LaTeX](/guide/Latex/LaTeX)
 
-[LaTeX](/guide/Latex)
+[C++](/guide/Cpp/Cpp) (В разработке)
 
-[C++](/guide/Cpp/) (В разработке)
-
-[Python](/guide/Python/) (В разработке) 
+[Python](/guide/Python/Python) (В разработке) 
