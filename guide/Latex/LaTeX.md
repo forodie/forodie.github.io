@@ -5,11 +5,11 @@ permalink: /guide/Latex/
 excerpt: #'This paper is about the number 1. The number 2 is left for future work.'
 date: #2009-10-01
 venue: #'Journal 1'
-paperurl: 'http://forodie.github.io/files/VKR.zip'
+#paperurl: 'http://forodie.github.io/files/VKR.zip'
 #citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
 
-**Шаблон отчета, курсовой и дипломной работы, созданный под ИИТММ, ННГУ:** [download](http://forodie.github.io/files/VKR.zip)
+**Шаблон отчета, курсовой и дипломной работы, созданный под ИИТММ, ННГУ:** [download](https://github.com/forodie/forodie.github.io/raw/main/files/VKR.zip)
 
 ## LaTeX --- это?
 LaTeX (произносится как <<латех>>) --- инструмент для создания профессиональных документов, система набора и вёрстки. Используется для создания научных документов, статей, книг и других публикаций. Пользуясь этой системой, можно состредоточиться только над содержимым документа, всё форматирование программа возьмёт на себя с учетом стилевого файла и установленной преамбулы (настройками). 
