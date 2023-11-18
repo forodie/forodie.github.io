@@ -1,13 +1,10 @@
 ---
 permalink: /guide/
-title: "Markdown"
+title: "Guide"
 author_profile: true
-redirect_from: 
-  - /md/
-  - /markdown.html
 ---
 
-[LaTeX](/pages/guide/Latex/LaTeX.md) (new files) 
+[LaTeX](/_pages/_guide/Latex/LaTeX.md)
 
 [C++](/pages/guide/Cpp/Cpp.md) (В разработке)
 

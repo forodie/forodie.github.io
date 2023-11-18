@@ -1,3 +1,9 @@
+---
+permalink: /LaTeX/
+title: "Знакомство с LaTeX"
+author_profile: true
+---
+
 # Знакомство с LaTeX
 
 **Шаблон отчета, курсовой и дипломной работы, созданный под ИИТММ, ННГУ:** [download](https://github.com/forodie/forodie.github.io/raw/main/FilesForDownload/VKR.zip)
