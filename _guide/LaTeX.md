@@ -5,7 +5,6 @@ permalink: /guide/Latex
 excerpt: #'This paper is about the number 1. The number 2 is left for future work.'
 venue: #'Journal 1'
 ---
-
 **Шаблон отчета, курсовой и дипломной работы, созданный под ИИТММ, ННГУ:** [download](https://github.com/forodie/forodie.github.io/raw/main/files/VKR.zip)
 
 ## LaTeX --- это?
