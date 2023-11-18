@@ -1,11 +1,8 @@
 ---
 title: "Алгоритмы и анализ сложности (ФИИТ-1,2,3)"
 collection: teaching
-type: #"Undergraduate course"
 permalink: /teaching/alg_complexity
 venue: "University, ITMM"
-date: #2014-01-01
-location: #"City, Country"
 ---
 
 [Student progress sheet](https://docs.google.com/spreadsheets/d/1c2URTVu8V6kn-86q2IFgGwdn5WvpDIa3x7Az4bzB_AA/edit?usp=sharing)

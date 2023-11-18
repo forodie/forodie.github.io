@@ -1,11 +1,8 @@
 ---
 title: "Дискретная математика (3823Б1МА1)"
 collection: teaching
-type: #"Undergraduate course"
 permalink: /teaching/DiscreteMath
 venue: "University, ITMM"
-date: #2014-01-01
-location: #"City, Country"
 ---
 
 **Project description:** на данной странице отображена информация по курсу, домашние и контрольные задачи. 
