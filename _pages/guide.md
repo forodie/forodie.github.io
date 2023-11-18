@@ -4,8 +4,8 @@ title: "Guide"
 author_profile: true
 ---
 
-[LaTeX](/_pages/_guide/Latex/LaTeX.md)
+[LaTeX](/guide/Latex/LaTeX.md)
 
-[C++](/pages/guide/Cpp/Cpp.md) (В разработке)
+[C++](/guide/Cpp/Cpp.md) (В разработке)
 
-[Python](/pages/guide/Python/Python.md) (В разработке) 
+[Python](/guide/Python/Python.md) (В разработке) 
