@@ -2,7 +2,7 @@
 title: "Дискретная математика (3823Б1МА1)"
 collection: teaching
 type: #"Undergraduate course"
-permalink: /teaching/alg_complexity
+permalink: /teaching/DiscreteMath
 venue: "University, ITMM"
 date: #2014-01-01
 location: #"City, Country"
