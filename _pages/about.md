@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "forodie personal websites"
+title: "forodie personal website"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
