@@ -1,7 +1,7 @@
 ---
 title: "Знакомство с Python"
 collection: guide
-permalink: /guide/Python/
+permalink: /guide/Python
 excerpt: #'This paper is about the number 1. The number 2 is left for future work.'
 venue: #'Journal 1'
 #paperurl: 'http://forodie.github.io/files/VKR.zip'
