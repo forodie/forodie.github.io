@@ -3,6 +3,11 @@ title: "Алгоритмы и анализ сложности (ФИИТ-1,2,3)"
 collection: teaching
 permalink: /teaching/alg_complexity
 venue: "University, ITMM"
+excerpt: #'This paper is about the number 1. The number 2 is left for future work.'
+date: #2009-10-01
+venue: #'Journal 1'
+#paperurl: 'http://forodie.github.io/files/VKR.zip'
+#citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
 
 [Student progress sheet](https://docs.google.com/spreadsheets/d/1c2URTVu8V6kn-86q2IFgGwdn5WvpDIa3x7Az4bzB_AA/edit?usp=sharing)
