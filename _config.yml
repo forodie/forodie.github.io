@@ -188,6 +188,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  guide:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -245,6 +248,15 @@ defaults:
       layout: talk
       author_profile: true
       share: false
+  # _guide
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      comments: false
 
 # Sass/SCSS
 sass:
