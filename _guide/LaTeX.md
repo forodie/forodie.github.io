@@ -5,7 +5,21 @@ permalink: /guide/Latex
 excerpt: #'This paper is about the number 1. The number 2 is left for future work.'
 venue: #'Journal 1'
 ---
-**Шаблон отчета, курсовой и дипломной работы, созданный под ИИТММ, ННГУ:** [download](https://github.com/forodie/forodie.github.io/raw/main/files/VKR.zip)
+**Шаблон отчета, курсовой и дипломной работы, созданный под ИИТММ, ННГУ:** [download](https://github.com/forodie/forodie.github.io/raw/main/files/VKR.zip) [upd 28.01.2023]  
+
+В случае компиляции в pdfLatex:
+1. Раскомментировать следующие две строки в файле с преамбулой:  
+```
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+```
+2. Закомментировать следующие:  
+```
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+```  
+
+В случае компиляции LuaLatex сделать иначе.  
 
 ## LaTeX --- это?
 LaTeX (произносится как <<латех>>) --- инструмент для создания профессиональных документов, система набора и вёрстки. Используется для создания научных документов, статей, книг и других публикаций. Пользуясь этой системой, можно сосредоточиться только над содержимым документа, всё форматирование программа возьмёт на себя с учетом стилевого файла и установленной преамбулы (настройками). 
