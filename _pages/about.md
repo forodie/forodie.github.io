@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "forodie personal website"
-excerpt: "About me"
+title: "personal website"
+excerpt: "Обо мне"
 author_profile: true
 redirect_from: 
   - /about/
@@ -10,9 +10,9 @@ redirect_from:
 
 ## 📚 Образование   
 
-Bachelor's degree "Applied Informatics"  
-Lobachevsky State University of Nizhny Novgorod,  
-Institute of Information Technology, Mathematics and Mechanics.
+Бакалавр прикладной информатики  
+ННГУ им. Н.И. Лобачевского, г. Нижний Новгород,  
+Институт информационных технологий, математики и механики.
 
 ## 📕 Повышение квалификации  
 

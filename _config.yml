@@ -80,10 +80,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "German Utkin"
+  name             : "Герман Уткин"
   avatar           : "logo1.png"
-  bio              : "Laboratory Assistant,\nLobachevsky University, ITMM"
-  location         : "Nizhny Novgorod"
+  bio              : "Лаборант,\nННГУ им. Н.И. Лобачевского, ИИТММ"
+  location         : "Нижний Новгород"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=nH3hxA0AAAAJ&hl=ru"
