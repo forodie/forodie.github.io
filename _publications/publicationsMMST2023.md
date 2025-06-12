@@ -10,4 +10,4 @@ citation: 'Уткин Г.В. Критерий подобия над кольцо
 ---
 Получен критерий подобия над кольцом целых чисел некоторых верхних треугольных нильпотентных матриц 5-го порядка с одной и двумя супердиагоналями.
 
-[Download paper here](http://forodie.github.io/files/MMST2023_Proceedings.pdf)
+[Download paper here](http://forodie.github.io/files/MATHIT2024.pdf)
