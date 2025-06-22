@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "personal website"
+title: "Персональный сайт"
 excerpt: "Обо мне"
 author_profile: true
 redirect_from: 
