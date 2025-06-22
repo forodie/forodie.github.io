@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Guide"
+title: "Гайды"
 permalink: /guide/
 author_profile: true
 ---

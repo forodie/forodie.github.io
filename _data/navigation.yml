@@ -3,6 +3,9 @@ main:
   - title: "📚 Публикации"
     url: /publications/
 
+  - title: "📝 Заметки"
+    url: /notes/
+
   - title: "👨‍🏫 Преподавание"
     url: /teaching/    
     
