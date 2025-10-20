@@ -39,8 +39,8 @@
 
 /* === Dark theme override for Minimal Mistakes === */
 html.dark-mode {
-  --bg: #0f1113;
-  --bg-alt: #181a1b;
+  --bg: #333;
+  --bg-alt: #333;
   --text: #e6eef8;
   --link: #8ab4f8;
   --muted: #9aa3ad;
@@ -104,94 +104,6 @@ html.dark-mode .card {
 /* Код и подсветка синтаксиса */
 html.dark-mode pre,
 html.dark-mode code {
-  background-color: #222 !important;
+  background-color: #333 !important;
   color: #f5f5f5 !important;
 }
-
-/* === Dark mode final polish for Minimal Mistakes === */
-
-/* Палитра */
-html.dark-mode {
-  --bg: #0f1113;
-  --bg-alt: #181a1b;
-  --text: #e6eef8;
-  --link: #8ab4f8;
-  --muted: #9aa3ad;
-  --code-bg: #1a1a1a;
-  --code-text: #f8f8f2;
-}
-
-/* Основные контейнеры */
-html.dark-mode,
-html.dark-mode body,
-html.dark-mode .site,
-html.dark-mode .page,
-html.dark-mode .initial-content,
-html.dark-mode .page__footer,
-html.dark-mode footer,
-html.dark-mode .site-footer {
-  background-color: var(--bg) !important;
-  color: var(--text) !important;
-}
-
-/* Навигация и выпадающее меню */
-html.dark-mode .masthead,
-html.dark-mode .greedy-nav,
-html.dark-mode .greedy-nav__toggle,
-html.dark-mode .greedy-nav__toggle:hover {
-  background-color: var(--bg-alt) !important;
-  color: var(--text) !important;
-  border-color: #5c6370 !important;
-}
-
-/* Кнопка меню на мобильных */
-html.dark-mode .greedy-nav__toggle svg {
-  fill: var(--text) !important;
-}
-
-/* Ссылки */
-html.dark-mode a { color: var(--link) !important; }
-html.dark-mode a:hover { color: lighten(#8ab4f8, 10%) !important; }
-
-/* Подвал */
-html.dark-mode .site-footer,
-html.dark-mode .page__footer {
-  background-color: var(--bg-alt) !important;
-  border-top: 1px solid #5c6370 !important;
-  color: var(--muted) !important;
-}
-
-/* Блок автора */
-html.dark-mode .author__content,
-html.dark-mode .author__urls-wrapper {
-  background-color: var(--bg-alt) !important;
-  color: var(--text) !important;
-  border-color: #5c6370 !important;
-}
-html.dark-mode .author__avatar img {
-  border: 2px solid #5c6370;
-  border-radius: 50%;
-  background-color: var(--bg-alt);
-}
-html.dark-mode .author__name a { color: var(--link) !important; }
-html.dark-mode .author__bio { color: var(--muted) !important; }
-
-/* Код и подсветка */
-html.dark-mode pre,
-html.dark-mode code,
-html.dark-mode .highlight,
-html.dark-mode .highlighter-rouge {
-  background-color: var(--code-bg) !important;
-  color: var(--code-text) !important;
-  border: 1px solid #333 !important;
-}
-html.dark-mode .highlight .k { color: #c792ea; }
-html.dark-mode .highlight .s { color: #ecc48d; }
-html.dark-mode .highlight .n { color: #82aaff; }
-html.dark-mode .highlight .c { color: #5c6370; font-style: italic; }
-
-/* Убираем белый "просвет" при прокрутке */
-html, body { background-color: var(--bg); }
-
-/* Плавные переходы */
-* { transition: background-color .25s ease, color .25s ease, border-color .25s ease; }
