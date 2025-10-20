@@ -108,7 +108,64 @@ html.dark-mode code {
   color: #f5f5f5 !important;
 }
 
-/* Плавный переход */
-body {
-  transition: background-color 0.25s ease, color 0.25s ease;
+/* === Fix: белый фон при прокрутке === */
+html.dark-mode html,
+html.dark-mode body,
+html.dark-mode .site,
+html.dark-mode .page,
+html.dark-mode .initial-content {
+  background-color: var(--bg) !important;
+  color: var(--text) !important;
 }
+
+/* === Fix: цвета для кода === */
+html.dark-mode .highlighter-rouge,
+html.dark-mode .highlight {
+  background-color: #1a1a1a !important;
+  color: #e0e0e0 !important;
+}
+
+html.dark-mode .highlight pre,
+html.dark-mode pre {
+  background-color: #1a1a1a !important;
+  border: 1px solid #333 !important;
+  color: #f8f8f2 !important;
+}
+
+html.dark-mode code {
+  background-color: #2a2a2a !important;
+  color: #e0e0e0 !important;
+}
+
+/* Ключевые слова и элементы кода */
+html.dark-mode .highlight .k { color: #c792ea; } /* keywords */
+html.dark-mode .highlight .s { color: #ecc48d; } /* strings */
+html.dark-mode .highlight .n { color: #82aaff; } /* names */
+html.dark-mode .highlight .c { color: #5c6370; font-style: italic; } /* comments */
+
+/* === Fix: author box === */
+html.dark-mode .author__content,
+html.dark-mode .author__urls-wrapper,
+html.dark-mode .author__avatar {
+  background-color: var(--bg-alt) !important;
+  color: var(--text) !important;
+  border-color: #333 !important;
+}
+
+html.dark-mode .author__name a {
+  color: var(--link) !important;
+}
+
+html.dark-mode .author__bio {
+  color: var(--muted) !important;
+}
+
+html.dark-mode .author__avatar img {
+  border: 2px solid #333;
+  border-radius: 50%;
+}
+
+* {
+  transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+}
+
