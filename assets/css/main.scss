@@ -51,7 +51,7 @@ html.dark-mode body,
 html.dark-mode .page,
 html.dark-mode .site,
 html.dark-mode .page__footer {
-  background-color: #222 !important;
+  background-color: #333 !important;
   color: var(--text) !important;
 }
 html.dark-mode .archive,
@@ -102,3 +102,21 @@ html.dark-mode .highlight .k  { color: #c792ea; } /* keywords */
 html.dark-mode .highlight .s  { color: #ecc48d; } /* strings */
 html.dark-mode .highlight .n  { color: #82aaff; } /* names */
 html.dark-mode .highlight .c  { color: #5c6370; font-style: italic; } /* comments */
+
+/* === Fix: white background on scroll (html element not covered) === */
+html.dark-mode,
+html.dark-mode html,
+html.dark-mode body {
+  background-color: #333 !important;
+  color: #e6eef8 !important;
+}
+
+html, body {
+  min-height: 100%;
+}
+
+html.dark-mode .site,
+html.dark-mode .page,
+html.dark-mode .page__footer {
+  background-color: #333 !important;
+}
