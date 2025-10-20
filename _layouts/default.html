@@ -18,6 +18,8 @@ layout: compress
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}
+    <!-- Кнопка переключения темы -->
+    <button id="theme-toggle" class="theme-toggle theme-toggle--float" aria-label="Переключить тему">🌓</button>
 
     {{ content }}
 
@@ -29,6 +31,6 @@ layout: compress
     </div>
 
     {% include scripts.html %}
-
+    <script src="{{ '/assets/js/theme-toggle.js' | relative_url }}"></script>
   </body>
 </html>

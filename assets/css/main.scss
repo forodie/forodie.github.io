@@ -39,3 +39,36 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/* === Dark theme === */
+html.dark-mode {
+  --bg: #0f1113;
+  --text: #e6eef8;
+  --link: #8ab4f8;
+  --muted: #9aa3ad;
+}
+
+html.dark-mode body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+html.dark-mode a {
+  color: var(--link);
+}
+
+html.dark-mode .page__content,
+html.dark-mode .page__meta {
+  color: var(--text);
+}
+
+html.dark-mode code,
+html.dark-mode pre {
+  background-color: #222;
+  color: #e0e0e0;
+}
+
+/* Плавный переход при переключении */
+body {
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
