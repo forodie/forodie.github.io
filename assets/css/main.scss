@@ -141,7 +141,7 @@ html.dark-mode .greedy-nav__toggle,
 html.dark-mode .greedy-nav__toggle:hover {
   background-color: var(--bg-alt) !important;
   color: var(--text) !important;
-  border-color: #222 !important;
+  border-color: #5c6370 !important;
 }
 
 /* Кнопка меню на мобильных */
@@ -157,7 +157,7 @@ html.dark-mode a:hover { color: lighten(#8ab4f8, 10%) !important; }
 html.dark-mode .site-footer,
 html.dark-mode .page__footer {
   background-color: var(--bg-alt) !important;
-  border-top: 1px solid #222 !important;
+  border-top: 1px solid #5c6370 !important;
   color: var(--muted) !important;
 }
 
@@ -166,10 +166,10 @@ html.dark-mode .author__content,
 html.dark-mode .author__urls-wrapper {
   background-color: var(--bg-alt) !important;
   color: var(--text) !important;
-  border-color: #333 !important;
+  border-color: #5c6370 !important;
 }
 html.dark-mode .author__avatar img {
-  border: 2px solid #333;
+  border: 2px solid #5c6370;
   border-radius: 50%;
   background-color: var(--bg-alt);
 }
