@@ -89,10 +89,11 @@ html.dark-mode .greedy-nav {
 
 /* === Fix for markdown code blocks (.language-plaintext.highlighter-rouge) === */
 html.dark-mode .language-plaintext.highlighter-rouge,
+html.dark-mode .language-plaintext.highlighter-rouge pre,
 html.dark-mode .language-plaintext.highlighter-rouge code {
   background-color: #333 !important;
   color: #e0e0e0 !important;
-  border: 1px solid #f2f3f3 !important;
+  border: 1px solid #333 !important;
 }
 
 /* Цвета для синтаксиса (базовые) */
