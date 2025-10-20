@@ -84,7 +84,7 @@ html.dark-mode .masthead,
 html.dark-mode .site-header,
 html.dark-mode .greedy-nav {
   background-color: var(--bg-alt) !important;
-  border-color: #222 !important;
+  border-color: #333 !important;
 }
 
 /* === Fix for markdown code blocks (.language-plaintext.highlighter-rouge) === */
@@ -95,18 +95,6 @@ html.dark-mode .language-plaintext.highlighter-rouge code {
   background-color: #333 !important;
   color: #e0e0e0 !important;
   border: 1px solid #f2f3f3 !important;
-}
-
-/* Внутри pre и code */
-html.dark-mode .language-plaintext.highlighter-rouge code {
-  background-color: transparent !important; /* убираем двойной фон */
-  color: #f5f5f5 !important;
-}
-
-/* Подсветка строк (если используется Rouge syntax highlight) */
-html.dark-mode .highlight {
-  background-color: #1b1d1f !important;
-  color: #f5f5f5 !important;
 }
 
 /* Цвета для синтаксиса (базовые) */
