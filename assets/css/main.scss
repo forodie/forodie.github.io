@@ -1,16 +1,13 @@
 ---
 ---
 
+
 /*
- *    Minimal Mistakes Jekyll Theme
- *
- *  - Michael Rose
- *  - mademistakes.com
- *  - https://twitter.com/mmistakes
- *
+    Minimal Mistakes Jekyll Theme
 */
 
-@import "vendor/breakpoint/breakpoint"; // media query mixins
+@import "vendor/breakpoint/breakpoint";
+
 @import "variables";
 @import "mixins";
 @import "vendor/susy/susy";
@@ -40,35 +37,78 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
-/* === Dark theme === */
+/* === Dark theme override for Minimal Mistakes === */
 html.dark-mode {
   --bg: #0f1113;
+  --bg-alt: #181a1b;
   --text: #e6eef8;
   --link: #8ab4f8;
   --muted: #9aa3ad;
 }
 
-html.dark-mode body {
-  background: var(--bg);
-  color: var(--text);
-}
-
-html.dark-mode a {
-  color: var(--link);
-}
-
+/* Базовые цвета страницы */
+html.dark-mode body,
+html.dark-mode .page,
+html.dark-mode .site,
 html.dark-mode .page__content,
-html.dark-mode .page__meta {
-  color: var(--text);
+html.dark-mode .archive,
+html.dark-mode .layout--single,
+html.dark-mode .layout--archive {
+  background-color: var(--bg) !important;
+  color: var(--text) !important;
 }
 
-html.dark-mode code,
-html.dark-mode pre {
-  background-color: #222;
-  color: #e0e0e0;
+/* Заголовки */
+html.dark-mode h1,
+html.dark-mode h2,
+html.dark-mode h3,
+html.dark-mode h4,
+html.dark-mode h5,
+html.dark-mode h6 {
+  color: var(--text) !important;
 }
 
-/* Плавный переход при переключении */
+/* Ссылки */
+html.dark-mode a {
+  color: var(--link) !important;
+}
+html.dark-mode a:hover {
+  color: lighten(#8ab4f8, 10%) !important;
+}
+
+/* Навигация и шапка */
+html.dark-mode .masthead,
+html.dark-mode .site-header,
+html.dark-mode .greedy-nav {
+  background-color: var(--bg-alt) !important;
+  border-color: #222 !important;
+}
+
+/* Подвал */
+html.dark-mode .site-footer {
+  background-color: var(--bg-alt) !important;
+  color: var(--muted) !important;
+}
+
+/* Карточки, боковые панели и посты */
+html.dark-mode .sidebar,
+html.dark-mode .notice,
+html.dark-mode .page__meta,
+html.dark-mode .archive__item,
+html.dark-mode .archive__item-title,
+html.dark-mode .card {
+  background-color: var(--bg-alt) !important;
+  color: var(--text) !important;
+}
+
+/* Код и подсветка синтаксиса */
+html.dark-mode pre,
+html.dark-mode code {
+  background-color: #222 !important;
+  color: #f5f5f5 !important;
+}
+
+/* Плавный переход */
 body {
   transition: background-color 0.25s ease, color 0.25s ease;
 }
